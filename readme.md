@@ -1,6 +1,6 @@
 # Hello There, I'm Rijusmit! 👋
 
-![Profile Banner]([https://raw.githubusercontent.com/riju-talk/riju-talk/main/delhi_metro.jpg])
+![Profile Banner](https://raw.githubusercontent.com/riju-talk/riju-talk/main/delhi_metro.jpg)
 
 ## About Me
 

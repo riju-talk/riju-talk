@@ -1,10 +1,10 @@
-# Hi there, I'm Riju! 👋
+# Hi there, I'm Rijusmit! 👋
 
 ![Profile Banner](https://your-banner-image-url)
 
 ## About Me
 
-I'm Riju, a passionate Full Stack Developer and a Machine Learning rookie based in India. I love creating web applications and diving into the fascinating world of machine learning. Currently, I'm a Junior at IIIT-Delhi, constantly learning and building projects that span across full stack development and ML.
+I'm Rijusmit, a passionate Full Stack Developer and a Machine Learning rookie based in India. I love creating web applications and diving into the fascinating world of machine learning. Currently, I'm a Junior at IIIT-Delhi, constantly learning and building projects that span across full-stack development and ML.
 
 ## 🌟 What I Do
 
@@ -22,9 +22,9 @@ I'm Riju, a passionate Full Stack Developer and a Machine Learning rookie based 
 
 ### Frameworks & Libraries
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat-square)
-![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&style=flat-square)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=flat-square)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat-square)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat-square)
 
 ### Tools
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)
@@ -34,7 +34,7 @@ I'm Riju, a passionate Full Stack Developer and a Machine Learning rookie based 
 
 ## 📈 GitHub Stats
 
-![Riju's GitHub stats](https://github-readme-stats.vercel.app/api?username=riju-talk&show_icons=true&theme=radical)
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=riju-talk&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=riju-talk&layout=compact&theme=radical)
 
 ## 📝 Latest Blog Posts
@@ -44,16 +44,18 @@ I'm Riju, a passionate Full Stack Developer and a Machine Learning rookie based 
 
 ## 📫 Get in Touch
 
-- LinkedIn: [Riju](https://www.linkedin.com/in/your-linkedin-profile)
-- Twitter: [@riju_talk](https://twitter.com/riju_talk)
-- Personal Website: [riju.dev](https://www.riju.dev)
+- LinkedIn: [Rijusmit Biswas]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/rijusmit-biswas-933a3524b/))
+- Twitter: [@phantom_cloak16](https://x.com/Phantom_Cloak16)
+- Personal Website: [Rijusmit Biswas](https://rijusmit-m3.vercel.app/home)
 
 ## 📚 Currently Learning
 
 - Microservices Architecture
 - Deep Learning with TensorFlow and PyTorch
 - Advanced React.js Patterns
-- Domain-Driven Design
+- Next.Js Framework
+- Data Structure and Algorithms
+- CUDA Programming
 
 ## 💡 Fun Fact
 

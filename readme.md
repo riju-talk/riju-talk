@@ -55,7 +55,7 @@ I'm Rijusmit, a passionate Full Stack Developer and a Machine Learning rookie ba
 
 - LinkedIn: [Rijusmit Biswas](https://www.linkedin.com/in/rijusmit-biswas-933a3524b/)
 - Twitter: [@phantom_cloak16](https://x.com/Phantom_Cloak16)
-- Personal Website: [Rijusmit Biswas](https://rijusmit-m3.vercel.app/home)
+- Personal Website: [Rijusmit Biswas](https://rijusmit.com)
 
 ## 📚 Currently Learning
 

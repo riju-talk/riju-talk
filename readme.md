@@ -1,6 +1,6 @@
 # Hello There, I'm Rijusmit! 👋
 
-![Profile Banner](https://raw.githubusercontent.com/riju-talk/riju-talk/main/Banner.jpg)
+![Profile Banner](https://raw.githubusercontent.com/riju-talk/riju-talk/main/Black Minimal Motivation Quote LinkedIn Banner.jpg)
 
 ## About Me
 

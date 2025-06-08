@@ -86,17 +86,17 @@ From building modern web platforms to experimenting with cutting-edge AI models,
 ## 🛠️ Projects Worth Checking
 
 - ⚙️ **[DreamDot](https://github.com/riju-talk/dreamdot)** – A social media marketplace for creators with monetization via subscriptions and pay-per-view.
-- 📄 **[Smart File Assistant](https://github.com/riju-talk/smart-file-assistant)** – NLP-based document narrator that summarizes and infers content from PDF/Docs.
+- 📄 **[Conduit](https://github.com/riju-talk/Conduit)** – NLP-based document narrator that summarizes and infers content from PDF/Docs.
 - 🤖 **[TURBO Model](https://github.com/riju-talk/TURBO)** – A multimodal sarcasm explanation model using cross-attention over text and image embeddings.
-- 🧠 **[EEG Emotion Classifier](https://github.com/riju-talk/emotion-eeg)** – Emotion classification from DEAP dataset using STFT and cross-attention MLP architecture.
+- 🧠 **[Libra](https://github.com/riju-talk/Libra)** – A fine-tuned LLM on legal data for all your legal queries.
 
 ---
 
 ## 🌱 Currently Exploring
 
-- 🔗 Microservices with GraphQL Federation & Service Meshes  
+- 🔗 Microservices with GraphQL Federation & Service Meshes
+- Deep Learning and Research on Legal LLMs
 - 🧠 Reinforcement Learning & Explainable AI  
-- 🔐 End-to-End Security in Web Applications  
 - ⚛️ Advanced Patterns in React & Next.js  
 - 📊 Efficient Storage Models for Hybrid Databases  
 
@@ -106,7 +106,7 @@ From building modern web platforms to experimenting with cutting-edge AI models,
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rijusmit-biswas-933a3524b/)
 - 🐦 [Twitter](https://x.com/Phantom_Cloak16)
-- 🌐 [Personal Site](https://rijusmit.com)
+- 🌐 [Personal Site](https://rijusmit.vercel.app)
 
 ---
 

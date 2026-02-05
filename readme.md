@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Black%20and%20Gray%20Minimalist%20LinkedIn%20Banner.png" 
+  <img src="https://raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Black%20and%20Gray%20Minimalist%20LinkedIn%20Banner.png" 
        alt="Profile Banner"
        width="100%"/>
 
-  <h1>⚡ Rijusmit Biswas ⚡</h1>
+  <h1>Rijusmit Biswas</h1>
   <p>
     <b>ML Engineer · Applied Scientist · Data Engineer · Full-Stack Systems Architect</b>
   </p>

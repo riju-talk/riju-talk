@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/riju-talk/riju-talk/main/n_banner.png](https://raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Black%20and%20Gray%20Minimalist%20LinkedIn%20Banner.png)" 
+  <img src="raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Black%20and%20Gray%20Minimalist%20LinkedIn%20Banner.png" 
        alt="Profile Banner"
        width="100%"/>
 

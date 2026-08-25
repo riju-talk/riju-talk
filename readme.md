@@ -1,27 +1,27 @@
-&lt;div align="center"&gt;
-  &lt;img src="https://raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Black%20and%20Gray%20Minimalist%20LinkedIn%20Banner.png" width="100%" alt="Banner"/&gt;
+<div align="center">
+  <img src="https://raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Black%20and%20Gray%20Minimalist%20LinkedIn%20Banner.png" width="100%" alt="Banner"/>
 
-  &lt;h1&gt;Rijusmit Biswas&lt;/h1&gt;
+  <h1>Rijusmit Biswas</h1>
 
-  &lt;p&gt;&lt;b&gt;ML Engineer · Applied Scientist · Data Engineer · Full Stack Systems Architect&lt;/b&gt;&lt;/p&gt;
+  <p><b>ML Engineer · Applied Scientist · Data Engineer · Full Stack Systems Architect</b></p>
 
-  &lt;p&gt;Building intelligent, scalable, production grade systems across ML, data, and modern web platforms.&lt;/p&gt;
+  <p>Building intelligent, scalable, production grade systems across ML, data, and modern web platforms.</p>
 
-  &lt;p&gt;
-    &lt;a href="https://rijusmit.vercel.app"&gt;&lt;b&gt;Portfolio&lt;/b&gt;&lt;/a&gt; ·
-    &lt;a href="https://www.linkedin.com/in/rijusmit-biswas/"&gt;&lt;b&gt;LinkedIn&lt;/b&gt;&lt;/a&gt; ·
-    &lt;a href="mailto:rijusmit.biswas@gmail.com"&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/a&gt; ·
-    &lt;a href="https://github.com/riju-talk"&gt;&lt;b&gt;GitHub&lt;/b&gt;&lt;/a&gt;
-  &lt;/p&gt;
+  <p>
+    <a href="https://rijusmit.vercel.app"><b>Portfolio</b></a> ·
+    <a href="https://www.linkedin.com/in/rijusmit-biswas/"><b>LinkedIn</b></a> ·
+    <a href="mailto:rijusmit.biswas@gmail.com"><b>Email</b></a> ·
+    <a href="https://github.com/riju-talk"><b>GitHub</b></a>
+  </p>
 
-  &lt;p&gt;
-    &lt;img src="https://img.shields.io/badge/ML-Research-blueviolet?style=flat-square"/&gt;
-    &lt;img src="https://img.shields.io/badge/LLMs-Agentic_AI-critical?style=flat-square"/&gt;
-    &lt;img src="https://img.shields.io/badge/MLOps-Production_Ready-success?style=flat-square"/&gt;
-    &lt;img src="https://img.shields.io/badge/Full_Stack-Systems-informational?style=flat-square"/&gt;
-    &lt;img src="https://img.shields.io/badge/Open_Source-Active-brightgreen?style=flat-square"/&gt;
-  &lt;/p&gt;
-&lt;/div&gt;
+  <p>
+    <img src="https://img.shields.io/badge/ML-Research-blueviolet?style=flat-square"/>
+    <img src="https://img.shields.io/badge/LLMs-Agentic_AI-critical?style=flat-square"/>
+    <img src="https://img.shields.io/badge/MLOps-Production_Ready-success?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Full_Stack-Systems-informational?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Open_Source-Active-brightgreen?style=flat-square"/>
+  </p>
+</div>
 
 ---
 

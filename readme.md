@@ -25,9 +25,9 @@
 
 ---
 
-&lt;div align="center"&gt;
-  &lt;img src="https://github.com/riju-talk/riju-talk/blob/main/delhi_metro.jpg?raw=true" width="85%" alt="Photography"/&gt;
-  &lt;p&gt;&lt;i&gt;Original photography — visual thinking beyond code.&lt;/i&gt;&lt;/p&gt;
+<div align="center">;
+  <img src="https://github.com/riju-talk/riju-talk/blob/main/delhi_metro.jpg?raw=true" width="85%" alt="Photography"/>;
+  <p><i></i>Original photography — visual thinking beyond code.</i></p>
 &lt;/div&gt;
 
 ---
@@ -75,6 +75,6 @@
 
 ---
 
-&lt;div align="center"&gt;
-  &lt;b&gt;From research to production — I ship systems that reason, adapt, and scale.&lt;/b&gt;
-&lt;/div&gt;
+<div align="center">
+  <b>From research to production — I ship systems that reason, adapt, and scale.</b>
+</div>

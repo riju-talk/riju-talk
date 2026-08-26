@@ -28,7 +28,7 @@
 <div align="center">;
   <img src="https://github.com/riju-talk/riju-talk/blob/main/delhi_metro.jpg?raw=true" width="85%" alt="Photography"/>;
   <p><i></i>Original photography — visual thinking beyond code.</i></p>
-&lt;/div&gt;
+</div>
 
 ---
 

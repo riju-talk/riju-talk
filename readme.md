@@ -32,7 +32,7 @@
 |---|---|---|---|
 | **Head of Product Development** | Student Council, IIIT Delhi | 2025 to present | Built and shipped a student services portal used by more than 500 students; own the database, the indexing, and the API eight engineers build against. Set up CI with automated tests and review the team's code. Replaced manual data entry with validating forms, cutting admin work by about 60 percent and stopping a recurring class of bad records. |
 | **Software Engineering Intern** | Shipzee | Mar to Aug 2026 | Shipped features on a live courier aggregation product, from the React screens through the API to the database. Led a move to a new stack planned so nobody saw an outage. Traced failures that crossed service boundaries through logs and request traces, and wrote contract tests around external integrations. |
-| **AI Engineer and Undergraduate Researcher** | MIDAS Lab, IIIT Delhi | May 2025 to Jan 2026 | Built HorusLLM, which scores model output against several notions of alignment and flags on its own when quality drops. The checking step cut fabricated answers by about 20 percent and the lab still runs it. Reproducible pipelines over three datasets with retry and rate limit handling. Trained models with LoRA and QLoRA at four bit precision. First author on the paper, under review at AAAI 2027. |
+| **AI Engineer and Undergraduate Researcher** | MIDAS Lab, IIIT Delhi | May 2025 to Jan 2026 | Built an evaluation harness that scores model output against several notions of alignment and flags on its own when quality drops. The checking step cut fabricated answers by about 20 percent and the lab still runs it. Reproducible pipelines over three datasets with retry and rate limit handling. Trained models with LoRA and QLoRA at four bit precision. First author on a paper currently under review. |
 | **ML Research Intern** | Computational Social Science Lab, IIIT Delhi | Jan to May 2025 | Built a parallel Google Earth Engine pipeline producing district scale multi channel inputs and segmentation masks. Compared CNN backbones on phenology, crop type, and yield under one shared setup. Measured drift across more than ten districts with difference in differences and fixed effects models. |
 | **Data Science Intern** | Complex Systems Lab, IIIT Delhi | Aug to Dec 2024 | Led a team of five on a 25 class classifier over messy real world data, reaching 84.5 and 74.5 percent on two splits, and traced the gap to a shift in the data. Built web apps that visualised complex datasets in real time. Ran reviews and mentored the junior members. |
 | **Open Source Contributor** | Meshery, Layer5 | 2025 | Bug reports, feature requests, documentation fixes, and pull requests; took part in code reviews. |
@@ -73,13 +73,12 @@
 
 ## Publication
 
-**HorusLLM: a Cross Evaluation Protocol for Tri Vector Alignment Interference**
-Rijusmit Biswas (first author), A. G. Kumar, A. Anand, E. Cambria, Z. Wang, R. R. Shah
-*Under review at AAAI 2027*
+**First author on a publication currently under review.** Title, venue, and co-authors to follow
+once the review completes.
 
-An evaluation harness that scores model output against several notions of alignment and flags on
-its own when quality drops; the checking step cut fabricated answers by roughly 20 percent.
-Harness and benchmarks released as open source.
+The work is an evaluation harness that scores model output against several notions of alignment
+and flags on its own when quality drops; the checking step cut fabricated answers by roughly
+20 percent. Harness and benchmarks released as open source.
 
 ---
 

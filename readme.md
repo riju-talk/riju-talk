@@ -51,8 +51,8 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=riju-talk&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=c9d1d9" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riju-talk&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&text_color=c9d1d9" alt="Top Languages"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=riju-talk&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=c9d1d9" alt="GitHub Stats"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=riju-talk&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&text_color=c9d1d9" alt="Top Languages"/>
 </div>
 
 <div align="center">
@@ -64,17 +64,34 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=riju-talk&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=riju-talk&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies"/>
 </div>
 
 <!--
-  Optional: contribution "snake" animation. Add a workflow at
-  .github/workflows/snake.yml in the riju-talk/riju-talk repo (see setup
-  notes at the bottom of this file), then uncomment the line below.
+  ── Why these URLs, and what to do if one goes blank again ────────────────
+  Stats + Top Languages: github-stats-extended.vercel.app. This is the
+  actively-maintained successor to the original github-readme-stats
+  project (same team ethos, different maintainers), with its own live
+  instance. Same parameters as before, just a different domain. Should be
+  the most reliable of the four widgets.
 
-  <div align="center">
-    <img src="https://raw.githubusercontent.com/riju-talk/riju-talk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-  </div>
+  Activity Graph: this is already the correct, official domain
+  (github-readme-activity-graph.vercel.app) per the project's own README.
+  It's a free shared instance with no better-maintained fork available, so
+  it can occasionally 503 under load. If it goes blank, it's usually
+  transient — reload in a few minutes. If you want zero flakiness, the
+  fallback is self-generating it via a GitHub Action (ask and I'll set
+  that up) instead of relying on any live server.
+
+  Trophies: no actively-maintained successor exists for this one. The URL
+  above is a community volunteer mirror the project's own maintainer
+  published as a stopgap — reliability depends on that individual keeping
+  their server up, and the specific mirror may need to be swapped out over
+  time if it goes down. Check
+  https://github.com/ryo-ma/github-profile-trophy for the current list of
+  mirrors if this one stops working. Streak stats stays on
+  streak-stats.demolab.com, a separate stable service.
+  ──────────────────────────────────────────────────────────────────────────
 -->
 
 ---
@@ -123,16 +140,20 @@
 
 <!--
   ── Setup notes (delete this comment once done) ──────────────────────────
-  1. Stats/streak/trophy/activity-graph images above are live widgets that
-     read your public GitHub activity automatically — no setup needed
-     beyond having riju-talk as your username, which they already do.
-  2. Streak stats need public contributions visible on your profile
-     (Settings → Profile → "Make profile activity public").
-  3. For the animated contribution "snake," create
-     .github/workflows/snake.yml in this riju-talk/riju-talk repo with the
-     Platane/snk action, push it, let the Action run once, then uncomment
-     the snake <img> block above.
-  4. Swap theme=radical for dracula, tokyonight, gruvbox, or onedark on any
-     of the widget URLs if you want a different palette.
+  This README no longer depends on any deploy of your own. Every widget is
+  a live third-party service:
+  - Stats/Top Languages → github-stats-extended.vercel.app (maintained
+    successor to github-readme-stats)
+  - Streak → streak-stats.demolab.com
+  - Activity Graph → github-readme-activity-graph.vercel.app (official,
+    can rate-limit occasionally — see comment above)
+  - Trophies → a community volunteer mirror of github-profile-trophy — see
+    comment above for what to do if it goes down
+
+  Streak stats needs public contributions visible on your profile
+  (Settings → Profile → "Make profile activity public").
+
+  Swap theme=radical / react-dark for dracula, tokyonight, gruvbox, or
+  onedark on any of the widget URLs if you want a different palette.
   ──────────────────────────────────────────────────────────────────────────
 -->

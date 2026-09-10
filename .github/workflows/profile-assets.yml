@@ -1,9 +1,11 @@
 name: Profile assets
 
 # Regenerates the contribution graph and trophy SVGs on a schedule and commits
-# them to the `assets` branch, so the README never depends on a third-party
-# server being up. Run once manually (Actions tab -> "Profile assets" -> "Run
-# workflow") to create the branch, then it self-updates every 12 hours.
+# them to the `assets` branch, so the README renders from files in this repo
+# instead of depending on a third-party server being up at view time.
+#
+# First run: Actions tab -> "Profile assets" -> "Run workflow". That creates
+# the `assets` branch; afterwards it refreshes itself every 12 hours.
 
 on:
   schedule:
@@ -22,44 +24,45 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # --- Contribution activity graph --------------------------------------
+      # Contribution activity graph
       # https://github.com/maurodesouza/github-readme-activity-graph-action
       - name: Render activity graph
+        continue-on-error: true
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GITHUB_TOKEN }}
           output_path: dist/activity-graph.svg
-          options: >-
-            bg_color=0d1117&color=8a2be2&line=8a2be2&point=ffffff&area=true&area_color=8a2be2&title_color=8a2be2&hide_border=true&custom_title=Contribution%20Activity&height=320
+          options: bg_color=0d1117&color=8a2be2&line=8a2be2&point=ffffff&area=true&area_color=8a2be2&title_color=8a2be2&hide_border=true&custom_title=Contribution%20Activity&height=320
 
-      # --- Profile trophies -----------------------------------------------
-      # https://github.com/ryo-ma/github-profile-trophy
-      # No first-party Action; the project ships render_svg.ts for local
-      # generation. Args: USERNAME [OUTPUT_PATH] [THEME].
-      - name: Checkout github-profile-trophy
-        uses: actions/checkout@v4
-        with:
-          repository: ryo-ma/github-profile-trophy
-          ref: master
-          path: .trophy
-
-      - uses: denoland/setup-deno@v2
-        with:
-          deno-version: v1.x
-
+      # Profile trophies
+      # https://github.com/ryo-ma/github-profile-trophy -> the CI generator that
+      # project's README points to (Erik-Donath fork), pinned to a commit.
       - name: Render trophies
-        working-directory: .trophy
-        env:
-          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN2: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cp env-example .env || touch .env
-          deno run --allow-net --allow-env --allow-read --allow-write \
-            ./render_svg.ts "${{ github.repository_owner }}" ../dist/trophy.svg radical
+        id: trophy
+        continue-on-error: true
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: dist/trophy.svg
+          theme: radical
+          max-rows: "2"
+          no-frame: "true"
+          no-background: "true"
 
-      # --- Publish to the assets branch ------------------------------------
-      - name: Publish
+      # If the generator failed, fall back to snapshotting the project's own
+      # hosted endpoint into the committed file.
+      - name: Render trophies (fallback)
+        if: hashFiles('dist/trophy.svg') == ''
+        continue-on-error: true
+        run: |
+          mkdir -p dist
+          curl -fsSL --retry 3 --retry-delay 5 \
+            "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=radical&no-frame=true&no-bg=true&row=2&column=4&margin-w=8" \
+            -o dist/trophy.svg
+
+      - name: Publish to assets branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

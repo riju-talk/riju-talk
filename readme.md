@@ -5,8 +5,11 @@
 <h1 align="center">Rijusmit Biswas</h1>
 
 <p align="center">
-  ML engineer working across research and production — agentic systems, applied ML,
-  and the data and infrastructure that carry them from a paper to something people use.
+  <b>Software and Machine Learning Engineer</b> — I turn research into software people can rely on.
+</p>
+
+<p align="center">
+  New Delhi, India · Computer science at IIIT-Delhi, graduating September 2026
 </p>
 
 <p align="center">
@@ -15,69 +18,92 @@
   <a href="https://www.linkedin.com/in/rijusmit-biswas/">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="mailto:rijusmit.biswas@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://rijusmit.vercel.app/Rijusmit_Biswas_SDE_Resume.pdf">SDE résumé</a>
+  &nbsp;·&nbsp;
+  <a href="https://rijusmit.vercel.app/Rijusmit_Biswas_DS_Resume.pdf">DS résumé</a>
 </p>
 
 ---
 
-## What I work on
+I build software end to end and stay with it once it goes live — the React screens, the API in
+the middle, the database underneath, and the servers it runs on, plus machine learning when a
+problem calls for it. So far that has meant taking a product from a rough idea to something live
+on AWS, moving a running system onto a new stack with no visible outage, and building a portal
+that more than 500 students use. On the research side I have shipped ML that people keep using:
+**HorusLLM**, an evaluation harness my lab still runs to catch when a model starts answering
+worse, and satellite-imagery pipelines for crop prediction. First author on the HorusLLM paper,
+under review at AAAI 2027.
 
-- **Agentic AI & LLM systems** — retrieval, tool-use, and evaluation, with attention to the
-  reasoning and safety behavior that decides whether any of it survives contact with real users.
-- **Applied ML research** — model behavior, benchmarks, and failure analysis; reproducing
-  papers to understand them rather than only cite them.
-- **MLOps & data engineering** — pipelines, deployment, and monitoring that turn a model
-  into a system instead of a notebook.
-- **Full-stack systems** — distributed APIs and real-time platforms, owned end to end.
+|  |  |  |  |  |
+|:--:|:--:|:--:|:--:|:--:|
+| **12+** | **1** | **13** | **1403** | **150+** |
+| live deployments | first-author paper | models evaluated | Codeforces rating | LeetCode solved |
 
 ---
 
-## Skills
+## Experience
 
-| Area | Detail |
-|---|---|
-| **Machine learning** | Deep learning, model training and evaluation, computer-vision and sequence models, multimodal fusion, benchmarking and ablation studies |
-| **LLM & agentic systems** | RAG, tool-using agents, embeddings and vector search, evaluation pipelines, reasoning and safety analysis |
-| **MLOps** | Experiment tracking, reproducible pipelines, containerized deployment, monitoring and observability |
-| **Data engineering** | Ingestion, feature pipelines, large and multi-sensor datasets, SQL and NoSQL modeling |
-| **Backend** | API design, microservices, GraphQL, real-time services |
-| **Frontend** | Next.js and React application development, TypeScript, Tailwind CSS |
-| **Research practice** | Paper reproduction, literature review, experiment design, failure analysis, technical writing |
+| Role | Where | When | What |
+|---|---|---|---|
+| **Head of Product Development** | Student Council, IIIT-Delhi | 2025 – present | Built and shipped a student-services portal used by 500+ students; own the database, indexing, and the API eight engineers build against. Set up CI with automated tests and review the team's code. Replaced manual data entry with validating forms — ~60% less admin work and an end to a recurring class of bad records. |
+| **Software Engineering Intern** | Shipzee | Mar – Aug 2026 | Shipped full-stack features on a live courier-aggregation product, screens through API to database. Led a move to a new stack planned so no one saw an outage. Chased cross-service production failures through logs and traces, and wrote contract tests around external integrations. |
+| **AI Engineer & Undergraduate Researcher** | MIDAS Lab, IIIT-Delhi | May 2025 – Jan 2026 | Built HorusLLM, which scores model output against several notions of alignment and flags on its own when quality drops — cut fabricated answers ~20%, still in use. Reproducible pipelines over three datasets with retry and rate-limit handling. Trained models with LoRA/QLoRA at 4-bit. First author on the paper, under review at AAAI 2027. |
+| **ML Research Intern** | Computational Social Science Lab, IIIT-Delhi | Jan – May 2025 | Built a parallel Google Earth Engine pipeline producing district-scale multi-channel inputs and segmentation masks. Compared CNN backbones on phenology, crop type, and yield under one shared setup. Measured cross-district drift with difference-in-differences and fixed-effects models. |
+| **Data Science Intern** | Complex Systems Lab, IIIT-Delhi | Aug – Dec 2024 | Led a team of five on a 25-class classifier over messy real-world data (84.5% / 74.5% across splits) and traced the gap to a distribution shift. Built real-time data-visualisation web apps over open datasets. Ran reviews and mentored juniors. |
+| **Open Source Contributor** | Meshery — Layer5 | 2025 | Bug reports, feature requests, documentation fixes, and pull requests; took part in code reviews. |
 
 ---
 
 ## Selected work
 
-| Project | Focus | Summary | Key tech |
+| Project | Type | Summary | Stack |
 |---|---|---|---|
-| [**Sickle++**](https://github.com/riju-talk/sickle-plus-plus) | Remote sensing · research | Satellite crop monitoring — crop-type classification, phenology prediction, and yield estimation over multi-sensor imagery (Sentinel-2, Sentinel-1, Landsat-8), with training, evaluation, and Earth Engine tooling. | PyTorch · UTAE · UNet3D · ConvLSTM · Earth Engine |
-| [**TURBO**](https://github.com/riju-talk/TURBO) | Multimodal NLP · research | Independent implementation of the TURBO paper: target-augmented, shared-fusion multimodal sarcasm explanation — a modified BART encoder with cross-attention over Vision Transformer features, evaluated on MORE+ with BLEU, ROUGE, and METEOR. | PyTorch · Transformers · BART · ViT |
-| [**MineMEETS**](https://github.com/riju-talk/MineMEETS) | Agentic AI · RAG | Multimodal meeting agent — transcribes with Whisper, embeds with Sentence Transformers, stores in a Pinecone vector database, and answers questions over the transcript through a retrieval-augmented pipeline. | Python · Whisper · Sentence Transformers · Pinecone · Docker |
-| [**Flourish**](https://github.com/riju-talk/Flourish) | Full-stack · agentic AI | Plant-care web app that pairs real horticultural data with proactive AI — care schedules that adapt when you miss a watering. | TypeScript · Next.js · Python · Groq |
-| [**DreamDOT**](https://github.com/riju-talk/DreamDOT) | Full-stack | Creator social and blogging platform — subscriptions, pay-per-view content, and community interaction, built for scale. | TypeScript · Next.js · Docker |
+| [**Executive Career Agent**](https://github.com/riju-talk/executive-career-agent) | Agent swarm · desktop | Seven cooperating agents discover, de-duplicate, score, and tailor roles against a candidate's real résumé. Runs fully offline or against the live web; an anti-fabrication validator checks every claim against the master résumé. Ships an MCP server for Claude Desktop. | React · Electron · Node.js · MCP · LangChain |
+| [**TURBO**](https://github.com/riju-talk/TURBO) | ML research | Independent reimplementation of Goel et al. (arXiv 2502.07391): fuses Vision Transformer image features with a modified BART text encoder for multimodal sarcasm explanation, trained on MORE+ and scored with BLEU / ROUGE / METEOR. | PyTorch · ViT · BART · Hugging Face |
+| [**MineMEETS**](https://github.com/riju-talk/MineMEETS) | Multimodal retrieval | Turns images, text, and audio into embeddings behind one interface. Every step is dimension-checked and safe to rerun; Pinecone namespaces make reindex and rollback safe; tests and type checks run on every PR. | CLIP · Whisper · Pinecone · Docker · Pytest |
+| [**Cross-Portfolio Default Risk**](https://github.com/riju-talk/loan-defaulter-prediction-study) | Data science research | Dual study of credit-default prediction across credit cards (UCI, 30K) and installment loans (LendingClub). 31+ engineered features, 13 calibrated models with SHAP and cost-sensitive thresholds. XGBoost 0.7769 ROC-AUC on cards; ~$18.7M estimated annual savings. | XGBoost · LightGBM · SHAP · Optuna |
+| [**Quench++**](https://github.com/riju-talk/Quench-plus-plus) | Research tooling | Extends Indic reasoning benchmarks with injected bias and structured cause-and-effect chains in Boolean logic, so trustworthiness and reasoning can be measured repeatably. | Hugging Face · PyTorch · LoRA · QLoRA |
+| [**DreamDOT**](https://github.com/riju-talk/DreamDOT) | Distributed backend | Creator platform with subscriptions and pay-per-view. A set of GraphQL services answer cross-service queries without request cascades; I set the service boundaries and schema contracts so teams could work in parallel on a shared graph. | GraphQL · Node.js · Microservices · MongoDB |
+| [**Hostiggo**](https://github.com/riju-talk/Hostiggo-full-website) | Production SaaS | Idea to a product running on AWS: React front end, full backend, database, and servers, with CI and monitoring from the first week so releases stayed calm as usage grew. | Node.js · React · PostgreSQL · AWS |
+| [**Flourish**](https://flourish-web-iota.vercel.app/) | Agentic service | Plant-care assistant. The FastAPI backend runs sequenced LLM tool calls against external APIs with retries and graceful fallbacks; Firebase handles auth and storage. | FastAPI · LangChain · Firebase · Docker |
 
 ---
 
-## Tech stack
+## Skills
+
+| Area | |
+|---|---|
+| **Languages** | Python · TypeScript · JavaScript · C++ · SQL · C |
+| **Backend & APIs** | Node.js · Express · FastAPI · REST & GraphQL · GraphQL federation · WebSockets · retries and rate limiting |
+| **Frontend** | React · Next.js · Tailwind CSS · dashboards · live interfaces over WebSockets |
+| **Infrastructure & delivery** | AWS · Docker · GitHub Actions · Linux · Vercel · Pytest · structured logging · static analysis |
+| **Data & distributed systems** | PostgreSQL · MongoDB · Prisma · Pinecone · schema design · indexing · PySpark · Airflow · ETL |
+| **Machine learning & research** | PyTorch · Hugging Face · LoRA & QLoRA · LangChain · RAG · CLIP & Whisper · Google Earth Engine |
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,go,cpp,js,pytorch,fastapi,nodejs,graphql,nextjs,react,tailwind,postgres,mongodb,docker,aws,git,linux&theme=dark" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,pytorch,fastapi,nodejs,express,graphql,nextjs,react,tailwind,postgres,mongodb,redis,docker,aws,git,linux&theme=dark" alt="Tech stack"/>
 </div>
 
-| Layer | Tools |
-|---|---|
-| **Languages** | Python · TypeScript · Go · C++ · JavaScript |
-| **ML & AI** | PyTorch · Transformers · RAG · MLflow · Whisper · Sentence Transformers · NumPy · Pandas |
-| **Backend** | FastAPI · Node.js · GraphQL · microservices |
-| **Frontend** | Next.js · React · Tailwind CSS |
-| **Data & infra** | PostgreSQL · MongoDB · Pinecone · Docker · AWS · Linux |
+---
+
+## Publication
+
+**HorusLLM: A Cross-Evaluation Protocol for Tri-Vector Alignment Interference**
+Rijusmit Biswas (first author), A. G. Kumar, A. Anand, E. Cambria, Z. Wang, R. R. Shah
+*Under review — AAAI 2027*
+
+An evaluation harness that scores model output against several notions of alignment and flags on
+its own when quality drops; the checking step cut fabricated answers by roughly 20%. Harness and
+benchmarks released as open source.
 
 ---
 
 ## Activity
 
 <div align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=riju-talk&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=c9d1d9" alt="GitHub stats"/>
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=riju-talk&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&text_color=c9d1d9" alt="Top languages"/>
+  <img height="160" src="https://github-stats-extended.vercel.app/api?username=riju-talk&show_icons=true&hide_border=true&bg_color=00000000&title_color=2e6a4d&icon_color=2c637a&text_color=808a80" alt="GitHub stats"/>
+  <img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=riju-talk&layout=compact&hide_border=true&bg_color=00000000&title_color=2e6a4d&text_color=808a80" alt="Top languages"/>
 </div>
 
 <div align="center">
@@ -90,7 +116,16 @@
 
 ---
 
+## Contact
+
+Open to SDE, MLE, Data Scientist, and Data Engineer roles and internships. Email is the quickest
+way to reach me — a hard systems problem, a project worth doing, or a good research lead all welcome.
+
+<a href="mailto:rijusmit.biswas@gmail.com">rijusmit.biswas@gmail.com</a>
+
+---
+
 <div align="center">
-  <img src="https://github.com/riju-talk/riju-talk/blob/main/delhi_metro.jpg?raw=true" width="70%" alt="Original photography"/>
+  <img src="https://github.com/riju-talk/riju-talk/blob/main/delhi_metro.jpg?raw=true" width="60%" alt="Original photography"/>
   <p><i>Delhi Metro — thinking visually, away from the editor.</i></p>
 </div>

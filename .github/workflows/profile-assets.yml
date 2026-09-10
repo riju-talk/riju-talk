@@ -44,7 +44,7 @@ jobs:
           username: ${{ github.repository_owner }}
           token: ${{ secrets.GITHUB_TOKEN }}
           output_path: dist/activity-graph.svg
-          options: bg_color=ffffff00&color=2e6a4d&line=2e6a4d&point=2c637a&area=true&area_color=9fc1ac&title_color=2e6a4d&hide_border=true&custom_title=Contribution%20Activity&height=320
+          options: bg_color=ffffff00&color=3fb950&line=3fb950&point=3fb950&area=true&area_color=3fb95022&title_color=3fb950&hide_border=true&custom_title=Contribution%20Activity&height=320
 
       # Profile trophies
       # https://github.com/ryo-ma/github-profile-trophy -> the CI generator that

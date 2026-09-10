@@ -4,15 +4,6 @@ name: Profile assets
 # them to the `assets` branch, so the README renders from files in this repo
 # instead of depending on a third-party server being up at view time.
 #
-# One-time setup for the trophy:
-#   1. Create a classic Personal Access Token (no expiry or long-lived) with
-#      scopes: read:user, public_repo
-#      https://github.com/settings/tokens/new
-#   2. Repo -> Settings -> Secrets and variables -> Actions -> New repository
-#      secret, name it PROFILE_TOKEN, paste the token.
-# The activity graph works without it. Until PROFILE_TOKEN exists the trophy
-# step is skipped and only the graph is published.
-#
 # First run: Actions tab -> "Profile assets" -> "Run workflow". That creates
 # the `assets` branch; afterwards it refreshes itself every 12 hours.
 
@@ -30,8 +21,6 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    env:
-      TROPHY_TOKEN: ${{ secrets.PROFILE_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -47,22 +36,22 @@ jobs:
           options: bg_color=ffffff00&color=3fb950&line=3fb950&point=3fb950&area=true&area_color=3fb95022&title_color=3fb950&hide_border=true&custom_title=Contribution%20Activity&height=320
 
       # Profile trophies
-      # https://github.com/ryo-ma/github-profile-trophy -> the CI generator that
-      # project's README points to (Erik-Donath fork), pinned to a commit.
-      # Needs a PAT: the built-in GITHUB_TOKEN can't read the user-contribution
-      # GraphQL fields the generator queries.
+      # https://github.com/Nirzak/github-trophies-self-deploy — a maintained
+      # self-hosted instance of ryo-ma/github-profile-trophy. Snapshot it into a
+      # committed file so the README never depends on the service at view time.
+      # No token needed.
       - name: Render trophies
-        if: env.TROPHY_TOKEN != ''
         continue-on-error: true
-        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
-        with:
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.PROFILE_TOKEN }}
-          file: dist/trophy.svg
-          theme: onedark
-          max-rows: "2"
-          no-frame: "true"
-          no-background: "true"
+        run: |
+          mkdir -p dist
+          curl -fsSL --retry 4 --retry-delay 5 --retry-all-errors \
+            "https://nirzak-trophies.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&row=1&column=8&margin-w=8&margin-h=8" \
+            -o dist/trophy.svg
+          if [ "$(wc -c < dist/trophy.svg)" -lt 2000 ] || ! grep -q '</svg>' dist/trophy.svg; then
+            echo "trophy snapshot looked invalid; dropping it"
+            rm -f dist/trophy.svg
+            exit 1
+          fi
 
       - name: Publish to assets branch
         uses: peaceiris/actions-gh-pages@v4

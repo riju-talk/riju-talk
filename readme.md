@@ -31,42 +31,45 @@
 
 ---
 
-## Selected work
+## Skills
 
-**Research systems**
-
-- [**Sickle++**](https://github.com/riju-talk/sickle-plus-plus) — Satellite crop monitoring over
-  multi-sensor imagery (Sentinel-2, Sentinel-1, Landsat-8). UTAE, UNet3D, and ConvLSTM for
-  crop-type classification, phenology prediction, and yield estimation, with training,
-  evaluation, and Earth Engine download utilities.
-- [**TURBO**](https://github.com/riju-talk/TURBO) — Independent implementation of
-  target-augmented, shared-fusion multimodal sarcasm explanation: a modified BART encoder
-  with cross-attention over Vision Transformer features, evaluated on MORE+ with
-  BLEU, ROUGE, and METEOR.
-
-**ML systems**
-
-- [**MineMEETS**](https://github.com/riju-talk/MineMEETS) — End-to-end ML pipeline: data
-  ingestion, feature workflows, experiment tracking, and production deployment patterns.
-
-**Full-stack applications**
-
-- [**DreamDOT**](https://github.com/riju-talk/DreamDOT) — Social and blogging platform for
-  creators, with subscriptions, pay-per-view content, and community interaction.
-- [**Flourish**](https://github.com/riju-talk/Flourish) — Plant-care app that pairs real
-  horticultural data with AI guidance for people who want to keep plants alive.
+| Area | Detail |
+|---|---|
+| **Machine learning** | Deep learning, model training and evaluation, computer-vision and sequence models, multimodal fusion, benchmarking and ablation studies |
+| **LLM & agentic systems** | RAG, tool-using agents, embeddings and vector search, evaluation pipelines, reasoning and safety analysis |
+| **MLOps** | Experiment tracking, reproducible pipelines, containerized deployment, monitoring and observability |
+| **Data engineering** | Ingestion, feature pipelines, large and multi-sensor datasets, SQL and NoSQL modeling |
+| **Backend** | API design, microservices, GraphQL, real-time services |
+| **Frontend** | Next.js and React application development, TypeScript, Tailwind CSS |
+| **Research practice** | Paper reproduction, literature review, experiment design, failure analysis, technical writing |
 
 ---
 
-## Toolset
+## Selected work
 
-| | |
+| Project | Focus | Summary | Key tech |
+|---|---|---|---|
+| [**Sickle++**](https://github.com/riju-talk/sickle-plus-plus) | Remote sensing · research | Satellite crop monitoring — crop-type classification, phenology prediction, and yield estimation over multi-sensor imagery (Sentinel-2, Sentinel-1, Landsat-8), with training, evaluation, and Earth Engine tooling. | PyTorch · UTAE · UNet3D · ConvLSTM · Earth Engine |
+| [**TURBO**](https://github.com/riju-talk/TURBO) | Multimodal NLP · research | Independent implementation of the TURBO paper: target-augmented, shared-fusion multimodal sarcasm explanation — a modified BART encoder with cross-attention over Vision Transformer features, evaluated on MORE+ with BLEU, ROUGE, and METEOR. | PyTorch · Transformers · BART · ViT |
+| [**MineMEETS**](https://github.com/riju-talk/MineMEETS) | Agentic AI · RAG | Multimodal meeting agent — transcribes with Whisper, embeds with Sentence Transformers, stores in a Pinecone vector database, and answers questions over the transcript through a retrieval-augmented pipeline. | Python · Whisper · Sentence Transformers · Pinecone · Docker |
+| [**Flourish**](https://github.com/riju-talk/Flourish) | Full-stack · agentic AI | Plant-care web app that pairs real horticultural data with proactive AI — care schedules that adapt when you miss a watering. | TypeScript · Next.js · Python · Groq |
+| [**DreamDOT**](https://github.com/riju-talk/DreamDOT) | Full-stack | Creator social and blogging platform — subscriptions, pay-per-view content, and community interaction, built for scale. | TypeScript · Next.js · Docker |
+
+---
+
+## Tech stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,go,cpp,js,pytorch,fastapi,nodejs,graphql,nextjs,react,tailwind,postgres,mongodb,docker,aws,git,linux&theme=dark" alt="Tech stack"/>
+</div>
+
+| Layer | Tools |
 |---|---|
 | **Languages** | Python · TypeScript · Go · C++ · JavaScript |
-| **ML & AI** | PyTorch · Transformers · RAG · MLflow · NumPy · Pandas |
+| **ML & AI** | PyTorch · Transformers · RAG · MLflow · Whisper · Sentence Transformers · NumPy · Pandas |
 | **Backend** | FastAPI · Node.js · GraphQL · microservices |
 | **Frontend** | Next.js · React · Tailwind CSS |
-| **Data & infra** | PostgreSQL · MongoDB · Docker · AWS · Linux |
+| **Data & infra** | PostgreSQL · MongoDB · Pinecone · Docker · AWS · Linux |
 
 ---
 

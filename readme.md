@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Agentic%20AI%20Network%20Banner.png" width="100%" alt="Rijusmit Biswas"/>
+  <img src="https://raw.githubusercontent.com/riju-talk/riju-talk/refs/heads/main/Minimalist%20AI%20Developer%20Resume%20Banner%20(1).png" width="100%" alt="Rijusmit Biswas"/>
 </div>
 
 <h1 align="center">Rijusmit Biswas</h1>

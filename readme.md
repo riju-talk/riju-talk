@@ -54,6 +54,23 @@
 
 ---
 
+## Live projects
+
+Deployed and running on the internet:
+
+| Project | What it is | Live |
+|---|---|---|
+| **Hostiggo** | Production SaaS, from idea to AWS | [hostiggo.com](https://www.hostiggo.com/) |
+| **ArgusPay** | Real-time fraud detection with explainable decisions | [arguspay.vercel.app](https://arguspay.vercel.app/) |
+| **NEXGO** | Multi-courier shipping platform for Indian sellers | [nexgo-beta.vercel.app](https://nexgo-beta.vercel.app/) |
+| **DreamDOT** | Creator platform with subscriptions and pay per view | [dreamdot-web.vercel.app](https://dreamdot-web.vercel.app/) |
+| **Entropy** | Academic community platform with an AI study assistant | [entropy-app-psi.vercel.app](https://entropy-app-psi.vercel.app/) |
+| **VarshaDhan** | Village water-conservation planning and tracking | [gaon-ka-pani-zeta.vercel.app](https://gaon-ka-pani-zeta.vercel.app/) |
+| **Flourish** | Plant care assistant | [flourish-web-iota.vercel.app](https://flourish-web-iota.vercel.app/) |
+| **SICKLE++** | Crop-model transfer from Tamil Nadu to Andhra Pradesh | [sickle-plus-plus.vercel.app](https://sickle-plus-plus.vercel.app/) |
+
+---
+
 ## Skills
 
 | Area | |

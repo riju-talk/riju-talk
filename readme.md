@@ -62,7 +62,7 @@ Deployed and running on the internet:
 |---|---|---|
 | **Hostiggo** | Production SaaS, from idea to AWS | [hostiggo.com](https://www.hostiggo.com/) |
 | **ArgusPay** | Real-time fraud detection with explainable decisions | [arguspay.vercel.app](https://arguspay.vercel.app/) |
-| **NEXGO** | Multi-courier shipping platform for Indian sellers | [nexgo-beta.vercel.app](https://nexgo-beta.vercel.app/) |
+| **NEXGO** | Multi-courier shipping platform for Indian sellers | [mynexgo.com](https://mynexgo.com/) |
 | **DreamDOT** | Creator platform with subscriptions and pay per view | [dreamdot-web.vercel.app](https://dreamdot-web.vercel.app/) |
 | **Entropy** | Academic community platform with an AI study assistant | [entropy-app-psi.vercel.app](https://entropy-app-psi.vercel.app/) |
 | **VarshaDhan** | Village water-conservation planning and tracking | [gaon-ka-pani-zeta.vercel.app](https://gaon-ka-pani-zeta.vercel.app/) |
